@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "caneca01s",
+  "info": {
+    "singularName": "caneca01",
+    "pluralName": "caneca01s",
+    "displayName": "caneca",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageCaneca": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titleCaneca": {
+      "type": "string"
+    },
+    "priceCaneca": {
+      "type": "decimal"
+    }
+  }
+}
