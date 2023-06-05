@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * caneca01 controller
+ * produto controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::caneca01.caneca01');
+module.exports = createCoreController('api::produto.produto');

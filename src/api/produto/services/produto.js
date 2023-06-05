@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * caneca01 service
+ * produto service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::caneca01.caneca01');
+module.exports = createCoreService('api::produto.produto');
